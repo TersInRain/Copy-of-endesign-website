@@ -1,0 +1,600 @@
+body,
+div,
+p,
+span,
+ul,
+li,
+h2,
+h3,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    overflow: hidden;
+}
+
+.header {
+    background-color: #000000;
+}
+
+.header-bg {
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-links__item {
+	padding: 0px 10px;
+	align-content: space-between;
+    justify-content: space-around;
+	text-align: center;
+}
+
+
+.header-links {
+	font-size: 18px;
+	margin-left: 380px;
+    display: flex;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    justify-content: space-around;
+	text-align: center;
+	max-width: 1200px;
+}
+
+.second-navigation{
+	text-decoration: none;
+    background-image: url("./img/header-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-bottom: 0px;
+    padding: 10px 0px 500px 17%;
+}
+
+.second-header-links {
+	color: #FFFFFF !important; 
+	text-decoration: none;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-around;
+    font-family: "MuseoSansCyrl-300", Sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+.elementor {
+    z-index: 99;
+    position: relative;
+}
+
+.pos {
+
+	position: fixed;
+	display: flex;
+}
+.end-img {
+	
+	height: 40px;
+}
+
+.pic {	
+
+}
+
+.pic2 {
+	margin-left:300px;
+	margin-right:300px;
+    padding-top: 4px;
+    font-size: 12px;
+	margin-top: 32px;
+    display: flex;
+	border: 0;
+	border-radius: 25px;
+	cursor: pointer;
+	
+}
+
+.pic2:hover {
+	background: #e06618;
+    color: #e06618;
+	border-radius: 25px;
+}
+
+.end-img{
+	padding-top: 15px;
+	width: 180px;
+}
+
+.part {
+	color: #FFFFFF !important; 
+	text-decoration: none;
+    font-family: "MuseoSansCyrl-300", Sans-serif;
+    font-size: 22px;
+	margin: 250px 0px -250px 100px;
+}
+
+.porfol{
+  min-width: 100px;
+  font-family: inherit;
+  appearance: none;
+  border: 0;
+  border-radius: 25px;
+  background: #e06618;
+  color: #fff;
+  padding: 10px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.porfol:hover {
+  background: #fff;
+  color: #e06618;
+}
+
+.web{
+	text-align: center;
+	background-image: url(https://endesign.ru/wp-content/uploads/2020/10/fon.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hh{
+	text-align: center;
+	width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+	padding-top: 50px;
+	font-size: 22px;
+}
+
+.web-text{
+	
+	margin: 50px 320px 50px 320px;
+	font-size: 22px;
+}
+
+.uslugi {
+	text-align: center;
+	padding: 10px 0px 50px;
+	font-size: 24px;
+}
+
+.brown {
+	padding: 10px 0px;
+	background-color: #E06618;
+}
+
+.brown1 {
+	padding: 10px 10px;
+	text-align: center;
+	padding: 40px;
+}
+
+.bom {
+	padding: 40px 20px;
+	width: 100%;
+}
+
+.podrob {
+  	display: flex;
+	 text-align: left; 
+	 padding: 70px 0px 10px 100px ;
+}
+
+.mujik_s_text {
+	padding: 10px;
+	width: 100%;
+}
+
+.mujik_text {
+	color: #000;
+    line-height: 25px;
+    font-size: 1.2rem;
+	width: 200%;
+}
+
+.aq {
+	color: #000;
+    padding: 0px 0px 0px 80px;
+    line-height: 25px;
+    font-size: 1.2rem;
+}
+
+.mujik img{
+	width: 750px;
+	height: 350px;
+}
+
+.knop{
+  min-width: 100px;
+  font-family: inherit;
+  appearance: none;
+  border: 0;
+  border-radius: 25px;
+  background: #e06618;
+  color: #fff;
+  padding: 10px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0px 70px;
+}
+
+.knop:hover {
+  background: #000;
+  color: #e06618;
+}
+
+.preim {
+	background-image: url(https://endesign.ru/wp-content/uploads/2020/10/preimushhestva.jpg);
+	background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.qw {
+	padding: 50px;
+	margin-left: 300px; 
+	margin-right: 300px;
+	font-size: 36px;
+	text-align: center;
+}
+
+.text-blocks {	
+	display: inline-flex;
+	margin-left: 300px; 
+	margin-right: 300px;	
+}
+
+.text-blocks1 {
+	display: inline-flex;
+	margin-left: 300px; 
+	margin-right: 300px;
+	margin-top: 70px;
+	margin-bottom: 110px;
+ }
+
+	
+.first-blocks1 {
+	margin-left: 50px; 
+	margin-right: 50px;
+	width: 33.333%;
+}
+
+
+
+.first-blocks {
+	margin-left: 40px; 
+	margin-right: 40px;
+	width: 33.333%;
+}
+
+
+.text {
+	font-size: 16px;	
+}
+
+
+.solid {  
+	margin-right: 10px;
+
+}
+
+
+
+#block-for-slider {
+    width: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+	background: grey;
+}
+
+#viewport {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    text-align: center;
+}
+
+#slidewrapper {
+    position: relative;
+    width: calc(100% * 4);
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    -webkit-transition-timing-function: cubic-bezier(.67,.01,.23,1);
+    -o-transition-timing-function: cubic-bezier(.67,.01,.23,1);
+    transition-timing-function: cubic-bezier(.67,.01,.23,1);
+}
+
+#slidewrapper, #slidewrapper ul, #slidewrapper li {
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+    width: calc(100%/4);
+    list-style: none;
+    display: inline;
+    float: left;
+}
+
+.slide-img {
+    width: 100%;
+}
+
+#prev-btn, #next-btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: calc(50% - 25px);
+}
+
+#prev-btn:hover, #next-btn:hover {
+    cursor: pointer;
+}
+
+#prev-btn {
+    left: 600px;
+}
+
+#next-btn {
+    right: 600px;
+}
+
+#nav-btns {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.slide-nav-btn {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.slide-nav-btn:hover {
+    cursor: pointer;
+}
+.block-for-slider{
+	background-color: #000;
+}
+
+
+/*Блок с примерами работ*/
+
+.qw1 {
+	margin-bottom: 40px;
+}
+.qw21 {
+	padding: 20px;
+	margin-left: 300px; 
+	margin-right: 300px;
+	font-size: 36px;
+	text-align: center;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+}
+
+.primeri {
+}
+
+.mini-form {
+	margin-right: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.img421 {
+    display:inline-block;
+    position:relative;
+}
+
+.img421 div {
+    display: none;
+	justify-content: center;
+    position: absolute; 
+    bottom: 10px; left: 0px;  
+    background-color: rgba(0,0,0,.4); 
+    padding: 5px 5px 5px 10px;
+    color: white;
+	cursor: cell;
+	width: 370px;
+	height: 220px;
+}
+
+.img421:hover div {
+    display: block 
+}
+
+
+.bot_text {	
+	text-align: center;
+	font-size: 20px;
+}
+
+.qw5 {
+	margin-top: 100px;
+}
+
+
+/* Настраиваем внешний вид полей ввода*/
+input {
+  display: inline-block;
+  margin: 10px auto;
+  border: 2px solid #eee;
+  padding: 10px 20px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+}
+textarea {
+  display: inline-block;
+  margin: 10px auto;
+  border: 2px solid #eee;
+  padding: 10px 20px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.bg-form {
+	background-image: url(https://endesign.ru/wp-content/uploads/2020/10/group-4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	
+}
+
+.formform {
+	margin-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form__row{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.form__field{	
+	margin-left: 20px;
+    font-size: 20px;
+    color: grey;
+}
+
+.vibor-pola {
+    display: flex;
+}
+
+.option {
+    margin-top: 10px;
+    width: 246px;
+    height: 40px;
+}
+
+.option-ulugi {
+    margin-top: 10px;
+    width: 515px;
+    height: 40px;
+}
+
+.textarea {
+    width: 166px;
+}
+
+.submit {
+    font-size: 20px;
+    border: 0;
+    border-radius: 25px;
+    background: #e06618;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+
+}
+
+.submit:hover {
+    background: #000;
+    color: #e06618;
+  }
+
+.footer-bg {
+    background-color: #252525;
+    background-image: url(https://endesign.ru/wp-content/uploads/2020/10/back-footer.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+}
+
+.seti {
+    margin-left: 300px;
+}
+
+.soc-seti {
+    padding-top: 10px;
+}
+
+.soc1 {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-color: transparent;
+    display:inline;
+    position: relative;
+}
+
+.inf {
+    margin-left: 120px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.logo {
+    padding-top: 12px;
+    margin-bottom: 10px;
+}   
+
+.end-img-footer {
+    height: 50px;
+}
+
+.numbers {
+    color: grey;
+    font-size: 18px;
+}
+
+ ul.mini-menu li {
+    color: white;
+    margin-top: 12px;
+    list-style-type: none;
+    text-transform: uppercase;
+
+}
+
+ul.menu-footer  { 
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-footer {
+    margin-right: 100px;
+}
+
+.menu-foote-list {
+    margin-right: 170px;
+}
+
+
