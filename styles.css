@@ -11,6 +11,16 @@ h1 {
     padding: 0;
 }
 
+body, html {
+    overflow-x: hidden;
+}
+
+.hidden {
+    overflow-x: hidden;
+    display: block;
+}
+
+
 .page {
     overflow: hidden;
 }
@@ -20,7 +30,7 @@ h1 {
 }
 
 .header-bg {
-    width: 100%;
+    
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,16 +46,27 @@ h1 {
 
 .header-links {
 	font-size: 18px;
-	margin-left: 380px;
+    padding: 10px 0px;
     display: flex;
-	padding-top: 20px;
-	padding-bottom: 20px;
-    justify-content: space-around;
-	text-align: center;
-	max-width: 1200px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
-.second-navigation{
+.navigation {
+    display: block;
+}
+
+.header-flex-wrapper {
+    background-image: url("./img/header-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+ /* .second-navigation{
 	text-decoration: none;
     background-image: url("./img/header-bg.jpg");
     background-position: center center;
@@ -54,7 +75,7 @@ h1 {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin-bottom: 0px;
     padding: 10px 0px 500px 17%;
-}
+} */
 
 .second-header-links {
 	color: #FFFFFF !important; 
@@ -77,31 +98,32 @@ h1 {
     position: relative;
 }
 
-.pos {
+.pospos {
+    display: block;
+}
 
+.pos {
+    align-items: center; 
 	position: fixed;
 	display: flex;
+    
 }
 .end-img {
 	
 	height: 40px;
 }
 
-.pic {	
-
+.pic {
+    margin-left: 100px;
+    margin-right: 180px;
 }
 
 .pic2 {
-	margin-left:300px;
-	margin-right:300px;
-    padding-top: 4px;
-    font-size: 12px;
-	margin-top: 32px;
+    font-size: 14px;
     display: flex;
 	border: 0;
 	border-radius: 25px;
-	cursor: pointer;
-	
+	cursor: pointer;	
 }
 
 .pic2:hover {
@@ -113,18 +135,24 @@ h1 {
 .end-img{
 	padding-top: 15px;
 	width: 180px;
+    height: 32px;    
 }
 
 .part {
-	color: #FFFFFF !important; 
-	text-decoration: none;
     font-family: "MuseoSansCyrl-300", Sans-serif;
     font-size: 22px;
-	margin: 250px 0px -250px 100px;
+	text-align: left;
+    margin: 250px 0px;
+ 
 }
 
+.partpart {
+    padding-right: 500px;
+}
+
+
 .porfol{
-  min-width: 100px;
+  
   font-family: inherit;
   appearance: none;
   border: 0;
@@ -161,8 +189,7 @@ h1 {
 }
 
 .web-text{
-	
-	margin: 50px 320px 50px 320px;
+	margin: 30px 300px;
 	font-size: 22px;
 }
 
@@ -173,11 +200,15 @@ h1 {
 }
 
 .brown {
+    display: flex;
+    justify-content: center;
 	padding: 10px 0px;
 	background-color: #E06618;
 }
 
 .brown1 {
+    display: flex;
+    justify-content: center;
 	padding: 10px 10px;
 	text-align: center;
 	padding: 40px;
@@ -196,14 +227,14 @@ h1 {
 
 .mujik_s_text {
 	padding: 10px;
-	width: 100%;
+	
 }
 
 .mujik_text {
 	color: #000;
     line-height: 25px;
     font-size: 1.2rem;
-	width: 200%;
+
 }
 
 .aq {
@@ -408,9 +439,16 @@ h1 {
 }
 
 .primeri {
+    display: block;
+}
+
+.img1 {
+    height: auto;
+    width: 360px;
 }
 
 .mini-form {
+    margin-bottom: 10px;
 	margin-right: 40px;
 	display: flex;
 	justify-content: center;
@@ -425,12 +463,12 @@ h1 {
     display: none;
 	justify-content: center;
     position: absolute; 
-    bottom: 10px; left: 0px;  
+    bottom: 3px; 
     background-color: rgba(0,0,0,.4); 
-    padding: 5px 5px 5px 10px;
+    padding: 0px;
     color: white;
 	cursor: cell;
-	width: 370px;
+	width: 360px;
 	height: 220px;
 }
 
@@ -597,4 +635,288 @@ ul.menu-footer  {
     margin-right: 170px;
 }
 
+@media screen and (max-width: 960px) {
+    .navigation {
+        display: none;
+    }
 
+    .pos {
+        display: block;
+    }
+
+    .podrob{
+        padding: 0%;
+        padding-bottom: 20px;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        }
+    
+    .aq {
+        padding: 0;
+    }
+
+    /* .mujik {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 10px;
+        height: auto;
+    } */
+    .mujik img{
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: 100%;
+        display: flex;
+    }
+
+    .web-text {
+        margin: 0;
+    }
+
+    .text-blocks {
+        margin: 0;
+    }
+
+    .brown {
+        padding: 0;
+    }
+    
+    .brown1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        padding: 10px;
+        flex-wrap: wrap
+    }
+
+    .bom {
+        padding: 0;
+        padding: 10px;
+    }
+
+    .preim {
+        justify-content: center;
+    }
+    .qw {
+        margin: 0;
+        padding: 30px 0px;
+        justify-content: center;
+    }
+
+    .text-blocks {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .first-blocks {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .text-blocks1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .first-blocks1 {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .block-for-slider {
+        display: block;
+        width: 100%;
+    }
+
+     /* #prev-btn, #next-btn, #nav-btns{
+        justify-content: center;
+    }  */
+
+    .qw21 {
+        margin: 0;
+        padding: 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .formform {
+        padding: 0;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .form-imput {
+        margin-right: 20px;
+        margin: 0;
+        width: 80%;
+    }
+
+    .option-ulugi {
+        width: 100%;
+    }
+
+    .form__row{
+        margin: 0;
+        flex-direction: column;
+    }
+    .form__field{
+        display: flex;
+    }
+
+    .inf {
+        display: none;
+    }
+
+    .seti {
+        margin: 0;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .navigation {
+        display: none;
+    }
+
+    .pos {
+        display: block;
+    }
+
+    .podrob{
+        padding: 0%;
+        padding-bottom: 20px;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        }
+    
+    .aq {
+        padding: 0;
+    }
+
+    /* .mujik {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 10px;
+        height: auto;
+    } */
+    .mujik img{
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: 100%;
+        display: flex;
+    }
+
+    .web-text {
+        margin: 0;
+    }
+
+    .text-blocks {
+        margin: 0;
+    }
+
+    .brown {
+        padding: 0;
+    }
+    
+    .brown1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        padding: 10px;
+        flex-wrap: wrap
+    }
+
+    .bom {
+        padding: 0;
+        padding: 10px;
+    }
+
+    .preim {
+        justify-content: center;
+    }
+    .qw {
+        margin: 0;
+        padding: 30px 0px;
+        justify-content: center;
+    }
+
+    .text-blocks {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .first-blocks {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .text-blocks1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .first-blocks1 {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .block-for-slider {
+        display: block;
+        width: 100%;
+    }
+
+    /* #prev-btn, #next-btn, #nav-btns{
+        width: 100%;
+    } */
+
+    .qw21 {
+        margin: 0;
+        padding: 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .primeri {
+        display: none;
+    }
+
+    .option-ulugi {
+        width: 100%;
+    }
+
+    .form__row{
+        margin: 0;
+        flex-direction: column;
+    }
+    .form__field{
+        display: flex;
+    }
+
+    .inf {
+        display: none;
+    }
+
+    .seti {
+        margin: 0;
+        justify-content: center;
+    }
+    
+}
