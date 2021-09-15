@@ -100,11 +100,14 @@ body, html {
 
 .pospos {
     display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .pos {
     align-items: center; 
-	position: fixed;
+	padding: 0px 350px;
 	display: flex;
     
 }
@@ -147,7 +150,7 @@ body, html {
 }
 
 .partpart {
-    padding-right: 500px;
+    padding-right: 700px;
 }
 
 
@@ -215,8 +218,8 @@ body, html {
 }
 
 .bom {
-	padding: 40px 20px;
-	width: 100%;
+	padding: 10px;
+	
 }
 
 .podrob {
@@ -385,11 +388,11 @@ body, html {
 }
 
 #prev-btn {
-    left: 600px;
+    left: 670px;
 }
 
 #next-btn {
-    right: 600px;
+    right: 670px;
 }
 
 #nav-btns {
@@ -490,12 +493,17 @@ body, html {
 /* Настраиваем внешний вид полей ввода*/
 input {
   display: inline-block;
-  margin: 10px auto;
+  /* margin: 10px auto; */
   border: 2px solid #eee;
   padding: 10px 20px;
   font-family: Verdana, Arial, sans-serif;
   font-size: 16px;
 }
+
+.lable1{
+    margin: 10px auto;
+}
+
 textarea {
   display: inline-block;
   margin: 10px auto;
@@ -536,7 +544,7 @@ textarea {
 }
 
 .option {
-    margin-top: 10px;
+    margin-top: 1px;
     width: 246px;
     height: 40px;
 }
@@ -551,18 +559,18 @@ textarea {
     width: 166px;
 }
 
-.submit {
-    font-size: 20px;
+.submit1 {
+    font-size: 16px;
     border: 0;
     border-radius: 25px;
     background: #e06618;
     color: #fff;
-    padding: 8px 16px;
+    padding: 10px 16px;
     cursor: pointer;
 
 }
 
-.submit:hover {
+.submit1:hover {
     background: #000;
     color: #e06618;
   }
