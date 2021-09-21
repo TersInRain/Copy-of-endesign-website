@@ -1,5 +1,13 @@
 
 <?php
+
+
+$connect = mysqli_connect ('localhost','root','','pismo');
+
+if (!$connect){
+    die('Error');
+}
+
 // Получаем значения переменных из пришедших данных
 error_reporting( E_ERROR );
 if (isset($_POST['name'])){$name= $_POST['name'];
