@@ -2,12 +2,6 @@
 <?php
 
 
-$connect = mysqli_connect ('localhost','root','','pismo');
-
-if (!$connect){
-    die('Error');
-}
-
 // Получаем значения переменных из пришедших данных
 error_reporting( E_ERROR );
 if (isset($_POST['name'])){$name= $_POST['name'];
@@ -71,6 +65,8 @@ echo "Уважаемый(ая) $name</b> Ваше письмо отправле�
 else{
     echo "что-то пошло не так";
 }
+
+include_once ('database.php');
 ?>
 
 
